@@ -15,21 +15,6 @@ import Section from '../components/Section';
 import RadioButtonListView from '../components/RadioButtonListView';
 
 const ITEMS_PER_PAGE = 15;
-/*
- * User list screens is dynamic which supports following features
- * 1:- pull to refresh
- * 2:- pagination for large set of list to improve performance
- * 3:- search by user name from graphql with pagination on search supported
- * 4:- search by userType
- * 5:- to clear selected userType filter to all available render list with pagination support
- * 6:- Debouncing feature implemented on search to reduce api all to minimise costing and improve performance
- * 7:- using reusable components
- * 8:- separate logic and ui part
- * 9:- empty list view if no result found for searched text
- * 10:-loading indicator while fetching data
- * 11:- no extra api call
- * NOTE:- not implementing app navigation as it seems to be of no use in current useCase
- */
 const UserListScreen = () => {
   const [selectedRole, setSelectedRole] = useState<Role | null>(null);
   const [nextTokenState, setNextTokenState] = useState<string | null>(null);
