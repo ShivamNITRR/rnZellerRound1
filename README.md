@@ -1,4 +1,6 @@
-## Note:- **For now this app is tested and developed on ANDROID only, It can be installed directly into android mobile from link:- https://www.install.shareipa.com/ciSVMC valid for 7 days from 8 June 2025**
+## Note:-1- **For now this app is tested and developed on ANDROID only, It can be installed directly into android mobile from link:- https://www.install.shareipa.com/ciSVMC valid for 7 days from 8 June 2025**
+
+## Note:-2- tests are inside __tests__ folder and sourcecode can be accessed in src folder
 
 ## **Key Features of the User Management Screen**
 
